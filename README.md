@@ -8,3 +8,5 @@ A new flutter plugin project.
 
 You need to add the keychain sharing in capabilities. 
 
+Example:
+Sring imei = await DeviceId.imei;
