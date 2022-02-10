@@ -1,12 +1,17 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/device_info-2.0.0" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info-2.0.0" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id-1.0.1" />
-      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_linux-1.0.0" />
-      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_macos-1.0.0" />
-      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_web-1.0.0" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_web-1.0.0" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id-1.0.1" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_linux-1.0.0" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/platform_device_id_macos-1.0.0" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_macos-2.2.2" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_windows-2.1.1" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus-3.2.1" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_linux-2.1.1" />
+      <root url="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus_web-2.1.0" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
