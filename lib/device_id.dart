@@ -1,8 +1,7 @@
 
 import 'dart:async';
 import 'dart:io';
-
-import 'package:device_info/device_info.dart';
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/services.dart';
 
 class DeviceId {
@@ -10,7 +9,7 @@ class DeviceId {
     if (Platform.isAndroid){
       DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
       AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
-      return androidInfo.androidId;
+      return androidInfo.id;
     }
     else {
       MethodChannel _channel = MethodChannel("flutter.io/iOSIMEI");
