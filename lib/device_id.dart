@@ -5,7 +5,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/services.dart';
 
 class DeviceId {
-  static Future<String> get imei async {
+  static Future<String?> get imei async {
     if (Platform.isAndroid){
       DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
       AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
