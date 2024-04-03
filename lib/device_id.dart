@@ -1,15 +1,13 @@
 
 import 'dart:async';
 import 'dart:io';
-import 'package:device_info_plus/device_info_plus.dart';
+import 'package:android_id/android_id.dart';
 import 'package:flutter/services.dart';
 
 class DeviceId {
   static Future<String?> get imei async {
     if (Platform.isAndroid){
-      DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
-      AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
-      return androidInfo.id;
+      return await AndroidId().getId();
     }
     else {
       MethodChannel _channel = MethodChannel("flutter.io/iOSIMEI");
