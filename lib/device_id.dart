@@ -9,9 +9,9 @@ import 'package:flutter/services.dart';
 import 'package:platform_device_id/platform_device_id.dart';
 
 class DeviceId {
-  static Future<String> get imei async {
+  static Future<String?> get imei async {
     if(kIsWeb) {
-      String deviceId = await PlatformDeviceId.getDeviceId;
+      String deviceId = (await PlatformDeviceId.getDeviceId)!;
       var digest = sha1.convert(utf8.encode(deviceId));
       return '$digest';
     }
